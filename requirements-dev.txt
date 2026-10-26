@@ -1,0 +1,3 @@
+# Developer tooling (lint + checks)
+-r requirements-notebook.txt
+ruff>=0.5

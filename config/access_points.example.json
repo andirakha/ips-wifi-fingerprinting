@@ -1,0 +1,19 @@
+{
+  "_comment": "Public placeholder. Copy to access_points.private.json and fill in your real values (that file is git-ignored).",
+  "ssid_keyword": "campus-wifi",
+  "site_description": "Example Building, Floor 2",
+  "access_points": {
+    "00:00:5E:00:53:01": "Hallway A (2.4 GHz)",
+    "00:00:5E:00:53:02": "Hallway A (5 GHz)",
+    "00:00:5E:00:53:03": "Room 1 (2.4 GHz)",
+    "00:00:5E:00:53:04": "Room 1 (5 GHz)",
+    "00:00:5E:00:53:05": "Room 2 (2.4 GHz)",
+    "00:00:5E:00:53:06": "Room 2 (5 GHz)",
+    "00:00:5E:00:53:07": "Room 3 (2.4 GHz)",
+    "00:00:5E:00:53:08": "Room 3 (5 GHz)",
+    "00:00:5E:00:53:09": "Room 4 (2.4 GHz)",
+    "00:00:5E:00:53:0A": "Room 4 (5 GHz)",
+    "00:00:5E:00:53:0B": "Room 5 (2.4 GHz)",
+    "00:00:5E:00:53:0C": "Room 5 (5 GHz)"
+  }
+}

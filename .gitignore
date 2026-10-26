@@ -1,0 +1,33 @@
+# ---------- Sensitive / private (NEVER commit) ----------
+config/*.private.json
+notebooks/private/
+PRIVATE_README.txt
+*.private.*
+.env
+
+# Data (raw scans reveal real access points and locations)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained artifacts (regenerate via the notebook, or attach to a GitHub Release)
+models/*.pkl
+models/*.joblib
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ruff_cache/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- OS / IDE ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+# Extra dependencies to run notebooks/main.ipynb (training + validation)
+-r requirements.txt
+matplotlib>=3.8
+jupyterlab>=4.0
+ipykernel>=6.29

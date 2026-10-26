@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# Blocks commits that contain sensitive content. Enable with:  git config core.hooksPath .githooks
+python scripts/check_sensitive.py || python3 scripts/check_sensitive.py || {
+  echo "Commit blocked by scripts/check_sensitive.py"
+  exit 1
+}
