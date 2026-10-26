@@ -1,4 +1,4 @@
-# 📡 Indoor Positioning Lab — Wi-Fi Fingerprinting with KNN
+# 📡 Indoor Positioning Lab | Wi-Fi Fingerprinting with KNN
 
 A prototype **Indoor Positioning System (IPS)** based on *Wi-Fi RSSI fingerprinting*.
 It scans nearby access points (APs), builds an RSSI feature vector from 12 target APs, and predicts the
@@ -141,14 +141,3 @@ Full guide: [`docs/PRIVATE_DATA.md`](docs/PRIVATE_DATA.md).
 - Wi-Fi scanning runs on the **server device** (not in the browser), so the app must run on a machine with a
   Wi-Fi adapter (tested on Windows).
 - The `.pkl` files must be loaded with the same `scikit-learn` version used to create them.
-
-## 🛣️ Roadmap
-
-- [ ] Compare other algorithms (Random Forest, SVM) on the same radio map
-- [ ] Log prediction history to CSV
-- [ ] Floor-plan visualization of the predicted position
-- [ ] Unit tests for the preprocessing steps
-
-## 📄 License
-
-[MIT](LICENSE)
